@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>week 4 forms and tables notes</title>
+        <style>
+            td,th {border: 1px solid black;}
+        </style>
+    </head>
+
+    <body>
+        <h1>Tables and Forms</h1>
+        <h2>Tables:</h2>
+        <table>
+            <caption>World Population</caption>
+            <tr>
+                <th>Country</th> <!--th tag is for headers/meta data-->
+                <th>Population</th>
+                <th>% of World Population</th>
+            </tr>
+            <tr>
+                <td>China</td> <!--td is for data-->
+                <td>1,403,830,640</td>
+                <td>18%</td>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td>1,365,529,124</td>
+                <td>17.5%</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <h2>Forms:</h2>
+            <form action="" method="post">
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="Full Name"><br><br>
+
+                <label for="order">Food Order:</label>
+                <select id="order" name="order">
+                    <option></option>
+                    <option value="Hamburger">Hamburder</option>
+                    <option value="Cheeseburger">Cheeseburger</option>
+                    <option value="Hotdog">Hotdog</option>
+                    <option value="Chicken Nuggets">Chicken Nuggets</option>
+                </select><br><br>
+
+                <label for="instructions">Instructions:</label><br> 
+                <textarea id="instructions" name="instructions" rows="3" cols="50">
+                </textarea><br><br>
+
+                <input type="radio" id="pickup" name="order type" value="pickup"  checked="yes"> 
+                <label for="pickup">Pickup</label><br>
+                <input type="radio" id="delivery" name="order type" value="delivery">
+                <label for="delivery">Delivery</label><br><br>
+
+                <p>Do you want extra sauce?</p>
+                <input type="checkbox" id="extrasauce" name="extrasauce" value="needs extra sauce">
+                <label for="extrasauce">yes</label><br><br>
+
+                <input type="submit" value="Submit">
+            </form> 
+    </body>
+</html>
