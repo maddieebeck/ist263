@@ -1,0 +1,21 @@
+h1, h2{
+    color: turquoise;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.special{
+    color: purple;
+}
+
+.evenrow{
+    background-color: lightgray;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+

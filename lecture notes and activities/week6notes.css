@@ -1,0 +1,26 @@
+ /*selector, property, and value*/
+ h2 {
+    font-family: 'Courier New';
+}
+ /*you can't use any font you want unless connected through google fonts*/
+ h1 {
+    font-size: 3em;
+}
+ /*you can use em or % for size*/
+ p {
+    font-weight: bolder;
+     color:palevioletred;
+     text-decoration: underline;
+ }
+ /*below is a decendant selector - selects tag inside of another tag*/
+ p a {
+    color: palegreen;
+}
+ /*id picks one unique thing*/
+ #secondid {
+    color: cornflowerblue;
+}
+ /*class is not unique*/
+ .class2 {
+    color:yellow;
+}
