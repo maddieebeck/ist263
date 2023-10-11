@@ -1,0 +1,31 @@
+body{
+    background-color: #efebce;
+    color: #000000;
+}
+
+.contactlink{
+    color: #bb8588;
+}
+
+h1, h2{
+    color: #c05b60;
+}
+
+nav{
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom:30px;
+    border:black solid 1px;
+}
+
+nav a{
+    color: #c05b60;
+}
+
+a:hover{
+    background-color:#bb8588;
+    color: #ffffff;
+}
+
+
+
