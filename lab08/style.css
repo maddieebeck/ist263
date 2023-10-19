@@ -1,0 +1,75 @@
+body{
+    background-color: #efebce;
+    color: #000000;
+}
+
+.contactlink{
+    color: #bb8588;
+}
+
+h1, h2{
+    color: #c05b60;
+}
+
+nav{
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom:30px;
+    border:black solid 1px;
+}
+
+nav a{
+    color: #c05b60;
+}
+
+a:hover{
+    background-color:#bb8588;
+    color: #ffffff;
+}
+
+.slogan{
+    float:right;
+}
+
+.clear {
+    clear: both;
+}
+
+.row1{
+    display:flex;
+    background-color:#ffffff;
+    padding:20px;
+    border-radius:1em;
+    margin-bottom:20px
+}
+
+.row1 .address{
+    flex:1;
+}
+
+.row1 .email{
+    flex:2;
+}
+
+.row2{
+    display:flex;
+    background-color:#ffffff;
+    padding:20px;
+    border-radius:1em; 
+}
+
+.row2 .form{
+    flex:1;
+}
+
+.row2 .location{
+    flex:1;
+    padding: 20px;
+}
+
+
+
+
+
+
+
