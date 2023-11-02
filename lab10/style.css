@@ -136,9 +136,7 @@ i{
 }
 
 @media only screen and (min-width:501px){
-    nav{
-        display:flex;
-    } 
+    nav{display:flex;}
 }
 
 
