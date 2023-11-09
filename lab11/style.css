@@ -1,0 +1,158 @@
+body{
+    background-color: #efebce;
+    color: #000000;
+}
+
+.contactlink{
+    color: #bb8588;
+}
+
+h1, h2{
+    color: #c05b60;
+    line-height:2em;
+}
+
+nav{
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom:30px;
+    border:black solid 1px;
+}
+
+nav a{
+    color: #c05b60;
+}
+
+a:hover{
+    background-color:#bb8588;
+    color: #ffffff;
+}
+
+footer{
+    display:flex;
+    justify-content:space-between;
+}
+
+footer p{
+    margin:0px;
+}
+
+.clear {
+    clear: both;
+}
+
+.row1{
+    display:flex;
+    background-color:#ffffff;
+    padding:20px;
+    border-radius:1em;
+    margin-bottom:20px
+}
+
+.row1 .address{
+    flex:1;
+}
+
+.row1 .email{
+    flex:2;
+}
+
+.row2{
+    display:flex;
+    background-color:#ffffff;
+    padding:20px;
+    border-radius:1em;
+    flex-wrap:wrap; 
+}
+
+.row2 .form{
+    flex:1;
+}
+
+.row2 .location{
+    flex:1;
+    padding: 20px;
+}
+
+.special{
+    text-align:center;
+}
+
+.skillflex{
+    display:flex;
+}
+
+.innerflex{
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    padding-top:50px;
+}
+
+.leftcol{
+    flex-basis:75%;
+    padding:15px;
+}
+
+.rightcol{
+    background-color: #ffffff;
+    border-radius:1em;
+    flex-basis:25%;
+    padding:25px 15px 25px 15px;
+}
+
+.leftcol2{
+    flex-basis:75%;
+    padding:25px;
+}
+
+.rightcol2{
+    flex-basis:25%;
+    padding:25px;
+}
+
+.descriptionflex{
+    display:flex;
+}
+
+.otherskills{
+    margin:0px;
+}
+
+i{
+    font-size: 150%;
+}
+
+.banner{
+    max-width:100%;
+}
+
+
+
+@media only screen and (max-width:500px){
+    span{display:none;}
+    nav div{
+        padding:5px;
+    }
+}
+
+@media only screen and (min-width:501px){
+    nav{display:flex;}
+}
+
+.skip{
+    background-color:#efebce;
+    padding:5px;
+    border:solid black 1px;
+    text-decoration:none;
+    position:absolute;
+    top:10px;
+    left:-999px;
+}
+.skip:focus{
+    left:10px;
+}
+
+
+
+
