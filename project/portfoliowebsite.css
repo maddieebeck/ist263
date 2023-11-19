@@ -1,0 +1,97 @@
+nav{
+    display:flex;
+    padding: 15px;
+    justify-content:space-between;
+}
+
+body{
+    background: linear-gradient(to top right, #eeeced 30%, #bfc694 100%);
+}
+
+h1{
+    font-size:100px;
+    margin:0px;
+    padding-left:20px;
+    font-family:'crimson text';
+    color:#d4a633;
+}
+
+h2{
+    color:#3c4b33;
+}
+
+.involvement{
+    display:flex;
+    justify-content:space-around;
+    padding:10px;
+}
+
+.dance{
+    background-color:#bfc694;
+    padding:8px;
+}
+
+.oy{
+    background-color:#6f8d5e;
+    padding:8px;
+}
+
+.jerk{
+    background-color:#3c4b33;
+    padding:8px;
+}
+
+.homepageinfo{
+    display:flex;
+    justify-content: space-between;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+}
+
+.homepageinfo div{
+    margin-top:40px;
+    margin-left:40px;
+    margin-right:40px;
+}
+
+p, h2{
+    font-family:'crimson text';
+}
+
+.links{
+    text-align:end;
+}
+
+a{
+    color:#3c4b33;
+    text-decoration:none;
+    font-size:20px;
+}
+
+i{
+    font-size:30px;
+    padding-right:5px;
+}
+
+footer{
+    padding-left:20px;
+    margin:0px;
+}
+
+img{
+    max-width:750px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
