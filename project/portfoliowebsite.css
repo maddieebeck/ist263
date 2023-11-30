@@ -24,6 +24,7 @@ h2{
     display:flex;
     justify-content:space-around;
     padding:10px;
+    margin-bottom:25px;
 }
 
 .dance{
@@ -43,16 +44,25 @@ h2{
 
 .homepageinfo{
     display:flex;
+    flex-wrap:wrap;
     justify-content: space-between;
     padding-left:20px;
     padding-right:20px;
-    padding-bottom:20px;
+    padding-bottom:35px;
 }
 
 .homepageinfo div{
     margin-top:40px;
     margin-left:40px;
     margin-right:40px;
+}
+
+.homepageinfo .box1{
+    flex:2;
+}
+
+.homepageinfo .box2{
+    flex:3;
 }
 
 p, h2{
@@ -80,8 +90,64 @@ footer{
 }
 
 img{
-    max-width:750px;
+    max-width:100%;
 }
+
+.portfolioinfo{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.portfolioinfo div{
+    padding:25px;
+    height: 100%;
+}
+
+.experience{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.experience .ex{
+    margin:20px;
+    padding:10px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.skills div{
+    margin:20px;
+}
+
+.heading1{
+    font-size:50px;
+    text-align:center;
+    padding:0px;
+}
+
+.heading2{
+    text-align:center;
+    margin:0px;
+}
+
+.education{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin-bottom:25px;
+}
+
+.education div{
+    padding:20px;
+    font-size: 20px;
+
+}
+
+
+
 
 
 

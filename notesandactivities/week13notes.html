@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 13 image rollover</title>
+    <script>
+        function change (){
+            document.getElementById("arrow").setAttribute("src", "http://laferger.github.io/ist263/images/arrow_over.PNG");
+        } /*this function locates an element with and id of arrow. it changes an attributes src to whatever is in the quotes*/
+
+        function changeback (){
+            document.getElementById("arrow").setAttribute("src", "http://laferger.github.io/ist263/images/arrow.PNG");
+        }
+
+
+        /*below is true false question*/
+        function rightAnswer() {
+            document.getElementById("right").innerHTML = "<span style='color:green;'>False is the correct answer.<span>";
+        }
+
+        function wrongAnswer() {
+            document.getElementById("wrong").innerHTML = "<span style='color:red;'>True is the wrong answer.<span>";
+        }
+
+
+        /*below is how to use color picker*/ /*first part locates the thing you want to chnage and specifies changing its backgroundcolor. second part locates what we want to change it to and gets form field value (color picker)*/
+        function changeColor(){
+            document.getElementById("thePage").style.backgroundColor = document.getElementById("picker").value;
+        }
+    </script>
+
+    <style>
+        p {
+            border:2px solid black;
+        }
+    </style>
+</head>
+<body id="thePage">
+    <img id="arrow" onmouseover="change();" onmouseout="changeback();" src="http://laferger.github.io/ist263/images/arrow.PNG"> <!--id attribute with a value of arrow and an event when the mouse goes over the image-->
+
+    <p>Java and JavaScript are the same thing.</p>
+    <p onclick="wrongAnswer();" id="wrong">True</p>
+    <p onclick="rightAnswer();" id="right">False</p>
+
+    <form>
+        <input type="color" id="picker" onchange="changeColor();"> 
+    </form> <!--dont ever forget event to make function work-->
+</body>
+</html>
