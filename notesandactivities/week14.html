@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 14 google fonts notes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poiret+One&display=swap" rel="stylesheet">
+    <style>
+        .p1{
+            font-family: "Poiret One", sans-serif;
+        }
+
+        .p2{
+            font-family: "crimson text", serif;
+        }
+        
+        .p3{
+            font-family: "allura", cursive;
+        }
+
+        #modal{
+            background-color: #ffffff;
+            border:solid black 1px;
+            padding:5px;
+            width:200px;
+            position: absolute;
+            top:90%;
+            left:50%;
+            margin:-10px -100px;
+            display:none;
+        }
+
+        #modal-close{
+            text-align:right;
+            margin:0px;
+        }
+
+        #container{
+            position:relative;
+            margin:0 auto;
+            width:800px;
+        }
+
+        a{
+            background-color: #ff96ab;
+            padding:5px;
+        }
+    </style>
+    <script>
+        function openModal(){
+            document.getElementById("modal").style.display = "block";
+        }
+
+        function closeModal(){
+            document.getElementById("modal").style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <h1>Google Fonts</h1>
+    <h2 class="p1">Poiret One</h2>
+    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dignissimos delectus placeat porro modi, eligendi excepturi deleniti impedit rerum. Laboriosam architecto dolorum expedita, doloremque adipisci assumenda ipsum quisquam tempore pariatur?</p>
+
+    <h2 class="p2">Crimson Text</h2>
+    <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fugit blanditiis asperiores praesentium nisi ab dignissimos, qui accusamus mollitia voluptatem dolorum hic rem esse consequuntur quaerat voluptates nihil consectetur et.</p>
+
+    <h2 class="p3">Allura</h2>
+    <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fugit blanditiis asperiores praesentium nisi ab dignissimos, qui accusamus mollitia voluptatem dolorum hic rem esse consequuntur quaerat voluptates nihil consectetur et.</p>
+
+    <hr>
+
+    <div id="container">
+        <h1>Modal</h1>
+        <img src="https://laferger.github.io/ist263/images/cupcakes.jpg" alt="banner of a cupcake">
+        <h2>Desserts</h2>
+        <p>Jujubes caramels tart liquorice powder. Muffin gummies halvah tiramisu jelly chupa chups sugar plum marshmallow apple pie. Bonbon dragée icing toffee icing candy canes jelly beans fruitcake dragée. Halvah croissant icing caramels gummi bears marzipan sweet cake cupcake. Chocolate pastry cookie carrot cake jelly-o oat cake marzipan. Cake bonbon donut macaroon muffin bonbon dessert. Chocolate marshmallow gingerbread caramels jujubes marzipan jujubes cotton candy dessert. Toffee cotton candy cotton candy wafer marshmallow. Marshmallow cheesecake powder tootsie roll liquorice jujubes candy canes. Tiramisu jelly toffee fruitcake tootsie roll cake danish sesame snaps dessert. Bonbon candy canes tootsie roll donut jelly beans chocolate sweet roll. Muffin topping pastry bear claw oat cake. Cake liquorice bear claw lollipop sweet roll icing sweet roll topping gummies. Icing gummi bears danish carrot cake biscuit.</p>
+    
+        <p>Cupcake biscuit halvah chocolate bar candy canes dessert sweet. Toffee marzipan tootsie roll jujubes topping topping tiramisu. Bear claw pastry fruitcake powder cookie marshmallow. Oat cake apple pie carrot cake jelly-o shortbread sesame snaps pudding tiramisu. Topping cheesecake chupa chups powder pastry powder jelly marshmallow shortbread. Ice cream dragée cheesecake brownie carrot cake. Chocolate lollipop fruitcake muffin jujubes sweet tart. Cake cake ice cream cheesecake bonbon wafer tart biscuit. Tootsie roll gummi bears wafer chocolate bar chupa chups candy carrot cake bear claw. Donut danish pastry pudding chocolate cake. Dessert chupa chups jelly beans ice cream wafer lollipop sweet roll. Jelly liquorice dessert soufflé apple pie soufflé oat cake marshmallow. Cake sweet roll croissant cotton candy bonbon lollipop. Gingerbread cotton candy icing lemon drops bonbon icing.</p>
+    
+        <p>Candy canes bear claw apple pie chocolate caramels chocolate cake jelly-o. Jujubes donut croissant candy jelly-o. Cupcake jujubes chupa chups apple pie carrot cake bonbon bear claw. Wafer macaroon jelly-o apple pie cupcake cake danish donut bonbon. Cake cotton candy cotton candy chocolate cake bonbon dessert marshmallow cupcake marshmallow. Cotton candy muffin marzipan tiramisu danish tiramisu toffee ice cream. Marzipan jelly-o chocolate tootsie roll pastry. Powder sweet roll carrot cake jelly-o candy. Chocolate cake caramels apple pie gingerbread dessert gingerbread dessert. Muffin carrot cake chocolate bear claw topping jelly pie tart topping. Shortbread tiramisu croissant gingerbread chocolate cake candy. Tiramisu soufflé jujubes ice cream cheesecake liquorice. Jujubes marshmallow danish pudding carrot cake sugar plum jujubes topping.</p>
+
+        <p><a onclick="openModal();">subscribe to our newsletter</a></p>
+    </div>
+
+    <div id="modal">
+        <p id="modal-close" onclick="closeModal();">X</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <input type="submit" class="button" value="Subscribe">
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 14 participation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poiret+One&display=swap" rel="stylesheet">
+    <style>
+        #modal{
+            display:none;
+            background-color: #ffffff;
+            border:solid black 1px;
+            padding:5px;
+            width:200px;
+            position: absolute;
+            top:30%;
+            left:50%;
+            margin:-10px -100px;
+        }
+        #modal-close{
+            text-align:right;
+            margin:0px;
+        }
+        a{
+            font-family: "allura", cursive;
+        }
+    </style>
+    <script>
+        function openModal(){
+            document.getElementById("modal").style.display = "block";
+        }
+
+        function closeModal(){
+            document.getElementById("modal").style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <h1><a onclick="openModal();">join subscription list!!</a></h1>
+    <div id="modal">
+        <p id="modal-close" onclick="closeModal();">X</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <input type="submit" class="button" value="Subscribe">
+        </form>
+    </div>
+</body>
+</html>
