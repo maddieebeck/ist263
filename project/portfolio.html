@@ -4,47 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Madelyn Beck</title>
-    <link rel="stylesheet" href="portfoliowebsite.css">
+    <link rel="stylesheet" href="css/portfoliowebsite.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico">
 </head>
 <body>
     <nav>
+        <a href="#content" tabindex="1" class="skip">Skip to Content</a>
         <div>
-            <a href="index.html"><img src="media/mblogo.png" alt="logo" width="130px"></a>
+            <a href="index.html" tabindex="15"><img src="media/mblogo.png" alt="logo" width="130px"></a>
         </div>
         <div class="links">
-            <a href="index.html">Home</a><br>
-            <a href="resume.html">Resume</a><br>
-            <strong><a href="portfolio.html">Portfolio</a></strong>
+            <a href="index.html" tabindex="2">Home</a><br>
+            <a href="resume.html" tabindex="3">Resume</a><br>
+            <strong><a href="portfolio.html" tabindex="4">Portfolio</a></strong>
         </div>
     </nav>
 
-    <h1 class="heading1">Portfolio</h1>
+    <h1 class="heading1" id="content" tabindex="5">Portfolio</h1>
 
-    <div class="portfolioinfo">
-        <div>
+    <figure class="portfolioinfo">
+        <div tabindex="6">
             <iframe src="workexample1.pdf" frameborder="0"></iframe>
         </div>
-        <div>
+        <div tabindex="7">
             <iframe src="workexample2.pdf" frameborder="0"></iframe>
         </div>
-        <div>
+        <div tabindex="8">
             <iframe src="workexample3.pdf" frameborder="0"></iframe>
         </div>
-        <div>
+        <div tabindex="9">
             <iframe src="pink+whitearrangment.pdf" frameborder="0"></iframe>
         </div>
-    </div>
+    </figure>
 
     <footer>
-        <a href="https://www.instagram.com/maddieebeck/?hl=en"><i class="fa-brands fa-instagram" style="color: #3c4b33;"></i></a>
-        <a href="https://www.facebook.com/maddie.beck.9275"><i class="fa-brands fa-facebook" style="color: #3c4b33;"></i></a>
-        <a href="https://www.linkedin.com/in/madelyn-beck-a3b948238/"><i class="fa-brands fa-linkedin" style="color: #3c4b33;"></i></a>
-        <a href="https://www.linkedin.com/in/madelyn-beck-a3b948238/"><i class="fa-brands fa-pinterest" style="color: #3c4b33;"></i></a>
+        <a href="https://www.instagram.com/maddieebeck/?hl=en" tabindex="10"><i class="fa-brands fa-instagram" style="color: #3c4b33;"></i></a>
+        <a href="https://www.facebook.com/maddie.beck.9275" tabindex="11"><i class="fa-brands fa-facebook" style="color: #3c4b33;"></i></a>
+        <a href="https://www.linkedin.com/in/madelyn-beck-a3b948238/" tabindex="12"><i class="fa-brands fa-linkedin" style="color: #3c4b33;"></i></a>
+        <a href="https://www.linkedin.com/in/madelyn-beck-a3b948238/" tabindex="13"><i class="fa-brands fa-pinterest" style="color: #3c4b33;"></i></a>
+        <a href="https://open.spotify.com/playlist/37i9dQZF1Fa1IIVtEpGUcU?si=bf2f7f1d1a544ccb" tabindex="14"><i class="fa-brands fa-spotify" style="color: #3c4b33;"></i></a>
     </footer>
-    
 </body>
 </html>

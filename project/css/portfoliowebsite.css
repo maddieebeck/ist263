@@ -1,0 +1,246 @@
+nav{
+    display:flex;
+    padding: 15px;
+    justify-content:space-between;
+}
+
+body{
+    background: linear-gradient(to top right, #eeeced 30%, #bfc694 100%);
+}
+
+h1{
+    font-size:100px;
+    margin:0px;
+    padding-left:20px;
+    font-family:'crimson text' !important;
+    color:#d4a633;
+}
+
+h2{
+    color:#3c4b33;
+}
+
+.homepageinfo{
+    display:flex;
+    justify-content: space-between;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:18px;
+}
+
+.homepageinfo .box1{
+    flex:2;
+    margin-top:10px;
+    margin-left:40px;
+    margin-right:40px;
+}
+
+.homepageinfo .box2{
+    flex:3;
+    margin-top:10px;
+    margin-left:40px;
+    margin-right:40px;
+}
+
+.box2 img{
+    border-radius: 10px;
+}
+
+.homepageinfo .imagedot{
+    text-align:center;
+}
+
+p, h2{
+    font-family:'crimson text' !important;
+}
+
+.links{
+    text-align:end;
+}
+
+a{
+    color:#3c4b33 !important; 
+    text-decoration:none !important;
+    font-size:20px !important;
+    font-family:'crimson text' !important;
+}
+
+i{
+    font-size:30px;
+    padding-right:5px;
+}
+
+footer{
+    padding-left:20px;
+    margin:0px;
+}
+
+img{
+    max-width:100%;
+}
+
+.portfolioinfo{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.portfolioinfo div{
+    padding:20px;
+}
+
+iframe{
+    width:500px;
+    height:700px;
+    top: 0;
+    left: 0;
+}
+
+@media only screen and (max-width:500px){
+    iframe{
+        width:450px;
+    }
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.skills div{
+    margin:20px;
+}
+
+.heading1{
+    font-size:50px;
+    text-align:center;
+    padding:0px;
+}
+
+.heading2{
+    text-align:center;
+    margin:0px;
+}
+
+.education{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin-bottom:25px;
+    text-align:center;
+    margin-right:50px;
+    margin-left:50px;
+}
+
+.education div{
+    padding:20px;
+    font-size: 20px;
+    flex:1;
+}
+
+@media only screen and (max-width:1030px){
+    .homepageinfo{
+        display:block;
+    }
+}
+
+@media only screen and (max-width:1030px){
+    .education div{
+        flex:none;
+    }
+}
+
+#image2, #image3, #image4, #image5, #image6{
+    display:none;
+}
+
+.dot{
+    display:flex;
+    justify-content:center;
+}
+
+.dot img{
+    padding-left:10px;
+    padding-right:10px;
+    margin-top:10px;
+}
+
+.personalinfo{
+    display:flex !important;
+    justify-content: space-around !important;
+    margin-bottom: 20px !important;
+    margin-top:18px;
+    background-color: #d4a633 !important;
+    padding:5px !important;
+    flex-wrap:wrap !important; 
+}
+
+@media only screen and (max-width:530px){
+    .personalinfo div{
+        padding-left:10px !important;
+        padding-right:10px !important;
+    }
+}
+
+.resumeheading{
+    padding-bottom: 10px;
+}
+
+.accordion-button{
+    font-weight:bold;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow:none;
+    outline: 1px solid #000000;
+}
+
+.experienceskills{
+    display:flex;
+    justify-content:space-between;
+}
+
+.ex{
+    flex:1;
+    margin: 15px;
+}
+
+.sk{
+    flex:1;
+    margin: 15px;
+}
+
+@media only screen and (max-width:900px){
+    .ex{
+        margin-bottom:20px;
+        margin-top:10px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .experienceskills{
+        display:block;
+    }
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #bfc694;
+    color: #3c4b33;
+    border:solid 1px black;
+}
+
+.skip{
+    background-color:#ffffff;
+    padding:5px;
+    border:solid black 1px;
+    text-decoration:none;
+    position:absolute;
+    top:10px;
+    left:-999px;
+}
+.skip:focus{
+    left:10px;
+}
+
+main p{
+    font-size:1.12em;
+}

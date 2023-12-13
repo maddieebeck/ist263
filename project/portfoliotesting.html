@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Madelyn Beck</title>
+    <link rel="stylesheet" href="css/portfoliowebsite.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico">
+    <script>
+        function imageOff(){
+            document.getElementById("image1").style.display = "none";
+            document.getElementById("image2").style.display = "none";
+            document.getElementById("image3").style.display = "none";
+            document.getElementById("image4").style.display = "none";
+            document.getElementById("image5").style.display = "none";
+            document.getElementById("image6").style.display = "none";
+        } 
+
+        function image1On(){
+            document.getElementById("image1").style.display = "block";
+        }
+
+        function image2On(){
+            document.getElementById("image2").style.display = "block";
+        }
+
+        function image3On(){
+            document.getElementById("image3").style.display = "block";
+        }
+
+        function image4On(){
+            document.getElementById("image4").style.display = "block";
+        }
+
+        function image5On(){
+            document.getElementById("image5").style.display = "block";
+        }
+
+        function image6On(){
+            document.getElementById("image6").style.display = "block";
+        }
+    </script>
+</head>
+
+<body>
+    <nav>
+        <a href="#content" tabindex="1" class="skip">Skip to Content</a>
+        <div>
+            <a href="#" tabindex="20"><img src="media/mblogo.png" alt="logo" width="130px"></a>
+        </div>
+        <div class="links">
+            <strong><a href="#" tabindex="2">Home</a></strong><br>
+            <a href="#" tabindex="3">Resume</a><br>
+            <a href="#" tabindex="4">Portfolio</a>
+        </div>
+    </nav>
+
+    <main class="homepageinfo">
+        <div class="box1">
+            <h1 id="content" tabindex="5">Hi, I'm Maddie!</h1>
+            <h2 tabindex="6">Digital Journalism Student | Syracuse University</h2>
+            <p tabindex="7">Buffalo, NY born and raised, Madelyn graduated from Williamsville South High School in 2021 and moved to Syracuse, NY to study journalism at Syracuse University, with an intended graduating year of 2025</p>
+            <p tabindex="8">Aside from academics, Madelyn has a history of musical theater and performing, with a love of singing, dancing, crochet and guitar.</p>
+        </div>
+        <div class="imagedot">
+            <div class="box2">
+                <img src="media/img1.jpg" alt="image1" class="homeimages" id="image1">
+                <img src="media/img2.jpg" alt="image1" class="homeimages" id="image2">
+                <img src="media/img3.jpg" alt="image1" class="homeimages" id="image3">
+                <img src="media/img4.jpg" alt="image1" class="homeimages" id="image4">
+                <img src="media/img5.jpg" alt="image1" class="homeimages" id="image5">
+                <img src="media/img6.jpg" alt="image1" class="homeimages" id="image6">
+            </div>
+            <div class="dot">
+                <img src="media/slideshowdot.png" onclick="imageOff(); image1On();" alt="dot" width="25px" id="dot1" tabindex="9">
+                <img src="media/slideshowdot.png" onclick="imageOff(); image2On();" alt="dot" width="25px" id="dot2" tabindex="10">
+                <img src="media/slideshowdot.png" onclick="imageOff(); image3On();" alt="dot" width="25px" id="dot3" tabindex="11">
+                <img src="media/slideshowdot.png" onclick="imageOff(); image4On();" alt="dot" width="25px" id="dot4" tabindex="12">
+                <img src="media/slideshowdot.png" onclick="imageOff(); image5On();" alt="dot" width="25px" id="dot5" tabindex="13">
+                <img src="media/slideshowdot.png" onclick="imageOff(); image6On();" alt="dot" width="25px" id="dot6" tabindex="14">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://www.instagram.com/maddieebeck/?hl=en" tabindex="15"><i class="fa-brands fa-instagram" style="color: #3c4b33;"></i></a>
+        <a href="https://www.facebook.com/maddie.beck.9275" tabindex="16"><i class="fa-brands fa-facebook" style="color: #3c4b33;"></i></a>
+        <a href="https://www.linkedin.com/in/madelyn-beck-a3b948238/" tabindex="17"><i class="fa-brands fa-linkedin" style="color: #3c4b33;"></i></a>
+        <a href="https://www.linkedin.com/in/madelyn-beck-a3b948238/" tabindex="18"><i class="fa-brands fa-pinterest" style="color: #3c4b33;"></i></a>
+        <a href="https://open.spotify.com/playlist/37i9dQZF1Fa1IIVtEpGUcU?si=bf2f7f1d1a544ccb" tabindex="19"><i class="fa-brands fa-spotify" style="color: #3c4b33;"></i></a>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
