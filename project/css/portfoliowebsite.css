@@ -234,7 +234,7 @@ iframe{
     border:solid black 1px;
     text-decoration:none;
     position:absolute;
-    top:10px;
+    top:10px; 
     left:-999px;
 }
 .skip:focus{
