@@ -19,6 +19,7 @@ h1{
 @media only screen and (max-width:800px){
     h1{
         font-size: 80px;
+        margin:0 auto;
     }
 }
 
@@ -104,7 +105,7 @@ iframe{
 
 @media only screen and (max-width:500px){
     iframe{
-        width:200px;
+        max-width: 380px;
     }
 }
 
@@ -139,8 +140,8 @@ iframe{
 }
 
 @media only screen and (max-width:800px){
-    .education{
-        font-size: 20px;
+    .education div{
+        font-size: .75em;
     }
 }
 
