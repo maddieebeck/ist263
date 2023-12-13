@@ -16,6 +16,12 @@ h1{
     color:#d4a633;
 }
 
+@media only screen and (max-width:800px){
+    h1{
+        font-size: 80px;
+    }
+}
+
 h2{
     color:#3c4b33;
 }
@@ -98,7 +104,7 @@ iframe{
 
 @media only screen and (max-width:500px){
     iframe{
-        width:450px;
+        width:200px;
     }
 }
 
@@ -130,6 +136,12 @@ iframe{
     text-align:center;
     margin-right:50px;
     margin-left:50px;
+}
+
+@media only screen and (max-width:800px){
+    .education{
+        font-size: 20px;
+    }
 }
 
 .education div{
@@ -244,3 +256,5 @@ iframe{
 main p{
     font-size:1.12em;
 }
+
+
