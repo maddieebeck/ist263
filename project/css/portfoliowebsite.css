@@ -105,7 +105,7 @@ iframe{
 
 @media only screen and (max-width:500px){
     iframe{
-        max-width: 380px;
+        max-width: 200px;
     }
 }
 
@@ -141,7 +141,8 @@ iframe{
 
 @media only screen and (max-width:800px){
     .education div{
-        font-size: .75em;
+        padding-left:10px;
+        padding-right:10px;
     }
 }
 
